@@ -11,10 +11,8 @@
 #define WORLD_SIZE (800/BOT_SIZE)*(450/BOT_SIZE)
 #define WORLD_W (800/BOT_SIZE)
 #define WORLD_H (450/BOT_SIZE)
-
 using namespace cv;
 using namespace std;
-
 bool BoundsCheck(int,bool);
 
 struct SearchCell
